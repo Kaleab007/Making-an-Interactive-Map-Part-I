@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+crossorigin=""/>
+
+<script src="map.js" defer></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+crossorigin=""></script>
+<title>Mountain Bike Trails</title>
+
+    <style>
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expend-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!--button class="container-fluid"
+                type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expended = "false" 
+                aria-label="Toggle navigation">
+                <span class="navbor-toggler-icon"></span>
+                </button> --->
+                <div class="collapse navbar-collapse" id="navborSupportedContent">
+                    <ul id="navList" class="navbar-na me-auto justify-content-center mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <button class="btn btn-primary locationButton" type="button">User Location</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-primary locationButton" type="button">BlackTrail</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-primary locationButton" type="button">Mt Bielawski</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-primary locationButton" type="button">Miller County Park</button>
+                        </li><li class="nav-item">
+                            <button class="btn btn-primary locationButton" type="button">Loma Prieta</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-primary locationButton" type="button">Rancho Open Space Preserve</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-primary locationButton" type="button">Little Open Space Preserve</button>
+
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                </nav>
+           
+    <div id="map" style="height: 1000px"></div>
+</body>
+</html>
